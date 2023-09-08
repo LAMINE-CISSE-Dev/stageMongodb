@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d lib",
     "start": "node index.js",
     "dev": "nodemon server"
   },
